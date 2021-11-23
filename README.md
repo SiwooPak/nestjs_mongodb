@@ -29,7 +29,16 @@
 ## Installation
 
 ```bash
-$ npm install
+$ npx nest g module about
+$ npx nest g controller about
+$ npx nest g service about
+
+# install mongoose
+$ npm install --save @nestjs/mongoose mongoose
+$ npm install --save-dev @types/mongoose
+
+# install swagger(nestjs)
+$ npm install --save @nestjs/swagger fastify-swagger
 ```
 
 ## Running the app
